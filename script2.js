@@ -15,3 +15,7 @@ function greet(name = "Simon juma"){
   let person = new Person("John Smith", 30);
   console.log(person.name); // Output: "John Smith"
   console.log(person.age); 
+
+  let age = 18;
+  let name = age > 18 ? "John Smith" : "Simon Juma";
+  
